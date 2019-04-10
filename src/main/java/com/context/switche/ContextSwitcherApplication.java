@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.context.switche;
 
 import java.net.InetAddress;
 import java.net.UnknownHostException;

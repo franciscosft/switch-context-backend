@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.context.switche.resources;
 
 
 import org.springframework.http.ResponseEntity;
@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping(path = "/api")
-public class ContextSwitch {
+public class SwitchContextResource {
 	
 	@RequestMapping(method = RequestMethod.GET)
 	public ResponseEntity<?> teste(){
